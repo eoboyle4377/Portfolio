@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        Eric OBoyle
+        WDD229 Adv CSS
+        Omega Index Page
+        10/27/2022
+    -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>House of Snouts - Home</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aleo">
+<link rel = "stylesheet" href = "css/stylesheet.css">
+<style>
+    p{
+        font-family: 'Aleo', sans-serif;
+    }
+
+    .nav-link, .company, h2{
+        font-family: 'Nunito', sans-serif;
+    }
+</style>
+</head>
+
+<body>
+    <div class="wrapper">
+    <div class="header-background">
+    <div class="header-wrapper">
+    <div class="container">
+    <header>
+      <div class="row">
+        <div class="col-lg-3 col-md-5">
+        <div class="logo">
+            <img class="img-fluid" src="images/doglogo.svg" alt="House of Snouts Logo">
+        </div>
+        </div>
+        <div class="col-lg-9 col-md-7">
+                <h1 class="company" style="font-family: 'Nunito', sans-serif;">House of Snouts</h1>
+                <h1 class="altcompany" style="font-family: 'Nunito', sans-serif;">HOS</h1>
+                <h3 class="company2" style="font-family: 'Nunito', sans-serif;">Pet Adoption Service</h3>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </header>
+    </div>
+    </div>
+    </div>
+    <div class="nav-container">
+    <nav class="navbar navbar-expand-sm navbar-dark justify-content-center">
+        <div class="container justify-content-center">
+            <ul class="nav navbar nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active" aria-current="page">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="animals.html" class="nav-link">Animals</a>
+                </li>
+                <li class="nav-item">
+                    <a href="apply.html" class="nav-link">Apply Now</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about_us.html" class="nav-link">About Us</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://www.facebook.com"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+    </div>
+    <div class="container">
+        <div class="col-12 mt-5">
+            <h2 class="mb-4">About Us.</h2>
+            <p>Millions of dogs, cats and other domesticated animals are stray, lost or abandoned on a regular basis. We at House of Snouts are lucky enough 
+                to take in a few of these wonderful animals and find them the happy home they deserve. We opened our doors in 2019 and have been serving the 
+                Cleveland area ever since. We pride ourselves in giving our animals the love and affection they need, but nothing compares to the joy of finding 
+                them a permanent home. Our team of full-time employees and volunteers love to match candidates with their perfect companion, so if you are looking to 
+                fill a pet-sized void in your life, or simply have more love to give, then please fill out our quick contact form. Taking the first step in pet adoption 
+                brings us one step closer to saving the lives of these precious animals. 
+            </p>
+        </div>
+        <!--Image Carousel-->
+        <div id="carouselExampleControls" class="carousel slide w-50" data-ride="carousel">
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+                <!--Rounded images-->
+				<img src="images/carousel1.png" class="rounded d-block w-100" alt="dippy the dog">
+			  </div>
+			  <div class="carousel-item">
+				<img src="images/carousel2.png" class="rounded d-block w-100" alt="lizzy the lizard">
+			  </div>
+			  <div class="carousel-item">
+				<img src="images/carousel3.png" class="rounded d-block w-100" alt="jazz the cat">
+			  </div>
+			  <div class="carousel-item">
+				<img src="images/carousel4.png" class="rounded d-block w-100" alt="snoop the dog">
+			  </div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="sr-only">Next</span>
+			</a>
+		  </div>
+        <div class="survey">
+          <h4>Vote for your favorite pet and see the results of our latest survey!</h4>
+          <button type="button" class="btn btn-success mb-5" data-toggle="modal" data-target="#exampleModal">Vote now</button>
+		
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Which animal makes the best pet?</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<form>
+							<div class="form-group">
+                                <input type="radio" id="Dogs" name="fav_pet" value="Dogs">
+                                <label for="dogs">Dogs</label><br>
+                                <input type="radio" id="Cats" name="fav_pet" value="Cats">
+                                <label for="cats">Cats</label><br>
+                                <input type="radio" id="Birds" name="fav_pet" value="Birds">
+                                <label for="birds">Birds</label><br>
+                                <input type="radio" id="Fish" name="fav_pet" value="Fish">
+                                <label for="fish">Fish</label><br>
+                                <input type="radio" id="Other" name="fav_pet" value="Other">
+                                <label for="other">Other</label><br>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">See Results</button>
+						<button type="button" class="btn btn-primary">Submit Vote</button>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<footer>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!">
+        </a>
+    <small><i> Copyright &copy; 2022<br>
+               Created by Eric O'Boyle for WDD229</i></small>
+</footer>
+</div>
+
+</body>
+</html>

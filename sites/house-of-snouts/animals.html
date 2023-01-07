@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        Eric OBoyle
+        WDD229 Adv CSS
+        Omega Index Page
+        10/27/2022
+    -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>House of Snouts - Home</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aleo">
+<link rel = "stylesheet" href = "css/stylesheet.css">
+<style>
+    p{
+        font-family: 'Aleo', sans-serif;
+    }
+
+    .nav-link, .company, h1, h2, h3, h4{
+        font-family: 'Nunito', sans-serif;
+    }
+</style>
+<!--Google font embedded styling-->
+</head>
+
+<body>
+    <div class="wrapper">
+    <div class="header-background">
+    <div class="header-wrapper">
+    <div class="container">
+    <header>
+      <div class="row"> 
+        <!--Bootstrap responsive grid-->
+        <div class="col-lg-3 col-md-5">
+        <div class="logo">
+            <img class="img-fluid" src="images/doglogo.svg" alt="House of Snouts Logo">
+        </div>
+        </div>
+        <div class="col-lg-9 col-md-7">
+                <h1 class="company" style="font-family: 'Nunito', sans-serif;">House of Snouts</h1>
+                <h1 class="altcompany" style="font-family: 'Nunito', sans-serif;">HOS</h1>
+                <h3 class="company2" style="font-family: 'Nunito', sans-serif;">Pet Adoption Service</h3>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </header>
+    </div>
+    </div>
+    </div>
+    <div class="nav-container">
+    <!--Bootstrap navbar-->
+    <nav class="navbar navbar-expand-sm navbar-dark justify-content-center">
+        <div class="container justify-content-center">
+            <ul class="nav navbar nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="animals.html" class="nav-link active" aria-current="page">Animals</a>
+                </li>
+                <li class="nav-item">
+                    <a href="apply.html" class="nav-link">Apply Now</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about_us.html" class="nav-link">About Us</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://www.facebook.com"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+            <!--Font awesome icons in navbar-->
+        </div>
+    </nav>
+    </div>
+
+    <div class="container mt-4">
+        <h2 class="display-4 text-center">Find Your Perfect Pet...</h2>
+        <!--Bootstrap styled header-->
+        <p>Below you will find our selection of loveable pets available for adoption. You should have no problem finding a companion
+         with a personality to match your own. Give one of our furry friends a home to call their own! 
+    </p>
+        <h3 class="mt-5">Dogs</h3>
+        <table class="table table-bordered mt-4">
+        <!--Bootstrap table classes-->
+          <thead class="table-success">
+            <tr>
+              <th class="text-center">Thumbnail</th>
+              <th class="text-center">Name</th>
+              <th class="text-center">Breed</th>
+              <th class="text-center">Personality</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img src="images/dog1.jpg" class="img-fluid animals" alt="Dog #1"></td>
+              <td class="align-middle">Deloris</td>
+              <td class="align-middle">Pug</td>
+              <td class="align-middle">Intelligent, Stubborn, Independent</td>
+            </tr>
+            <tr>
+              <td><img src="images/dog2.jpg" class="img-fluid animals" alt="Dog #2"></td>
+              <td class="align-middle">Ralph</td>
+              <td class="align-middle">Terrier Mix</td>
+              <td class="align-middle">Sociable, Friendly, Rambunctious</td>
+            </tr>
+            <tr>
+                <td><img src="images/dog3.jpg" class="img-fluid animals" alt="Dog #3"></td>
+                <td class="align-middle">Squeek</td>
+                <td class="align-middle">Corgi Mix</td>
+                <td class="align-middle">Obedient, Scrappy, Energetic</td>
+            </tr>
+            <tr>
+                <td><img src="images/dog4.jpg" class="img-fluid animals" alt="Dog #4"></td>
+                <td class="align-middle">Scooter</td>
+                <td class="align-middle">French Bulldog</td>
+                <td class="align-middle">Goofy, Entertaining, Happy</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="container pets mt-5">
+        <h3>Cats</h3>
+        <table class="table table-bordered mt-4">
+            <thead class="table-success">
+                <tr>
+                  <th class="text-center">Thumbnail</th>
+                  <th class="text-center">Name</th>
+                  <th class="text-center">Breed</th>
+                  <th class="text-center">Personality</th>
+                </tr>
+              </thead>
+              <tbody>
+             <tr>
+                <td><img src="images/cat1.jpg" class="img-fluid animals" alt="Cat #1"></td>
+                <td class="align-middle">Kitty Purry</td>
+                <td class="align-middle">American Shorthair</td>
+                <td class="align-middle">Diva, Outgoing, Friendly</td>
+              </tr>
+              <tr>
+                <td><img src="images/cat2.jpg" class="img-fluid animals" alt="Cat #2"></td>
+                <td class="align-middle">Ringo</td>
+                <td class="align-middle">British Shorthair</td>
+                <td class="align-middle">Sociable, Underrated, Cool</td>
+              </tr>
+              <tr>
+                  <td><img src="images/cat3.jpg" class="img-fluid animals" alt="Cat #3"></td>
+                  <td class="align-middle">Jasper</td>
+                  <td class="align-middle">American Shorthair</td>
+                  <td class="align-middle">Curious, Loving, Energetic</td>
+              </tr>
+              <tr>
+                  <td><img src="images/cat4.jpg" class="img-fluid animals" alt="Cat #4"></td>
+                  <td class="align-middle">Cosmo</td>
+                  <td class="align-middle">Ragdoll</td>
+                  <td class="align-middle">Entertaining, Aloof, Calm</td>
+              </tr>
+              </tbody>
+        </table>
+      </div>
+      <div class="container pets mt-5">
+        <h3>Exotic</h3>
+        <table class="table table-bordered mt-4">
+            <thead class="table-success">
+                <tr>
+                  <th class="text-center">Thumbnail</th>
+                  <th class="text-center">Name</th>
+                  <th class="text-center">Breed</th>
+                  <th class="text-center">Personality</th>
+                </tr>
+              </thead>
+              <tbody>
+            <tr>
+                <td><img src="images/bird.jpg" class="img-fluid animals" alt="Parakeet"></td>
+                <td class="align-middle">Jelly Bean</td>
+                <td class="align-middle">Parakeet</td>
+                <td class="align-middle">Loud, Repetative, Funny</td>
+              </tr>
+              <tr>
+                <td><img src="images/spider.jpg" class="img-fluid animals" alt="Tarantula"></td>
+                <td class="align-middle">Legs Benedict</td>
+                <td class="align-middle">Zebra Turantula</td>
+                <td class="align-middle">Nope.</td>
+              </tr>
+              <tr>
+                  <td><img src="images/skunk.jpg" class="img-fluid animals" alt="Skunk"></td>
+                  <td class="align-middle">Pepe</td>
+                  <td class="align-middle">Skunk</td>
+                  <td class="align-middle">Lil' stinker</td>
+              </tr>
+              </tbody>
+        </table>
+      </div><br><br>
+<footer>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!">
+        </a>
+    <small><i> Copyright &copy; 2022<br>
+               Created by Eric O'Boyle for WDD222</i></small>
+</footer>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+body{
+    background-color: #000000;
+    color: white;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.wrapper
+{
+    width: 90%;
+    border: 2px solid #A8E53C;
+    margin: 30px auto;
+    background-color: rgb(34, 34, 34);
+}
+
+.header-wrapper{
+    width: 100%;
+    border: 2px solid #A8E53C;
+    
+}
+
+.company{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #A8E53C;
+    font-size: 5.2em;
+    padding-top: 40px;
+}
+
+.company2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 3em;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.altcompany{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #A8E53C;
+    font-size: 6em;
+    padding-top: 50px;
+    padding-left: 20px;;
+}
+
+.nav-container{
+
+    width: 100%;
+    border: 2px solid #A8E53C;
+    border-top: none;
+    background-color: #000000;
+}
+
+.nav-item{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nav-link{
+    color: white;
+    padding-right: 80px;
+    font-size: 1.5em;
+    justify-content: space-evenly;
+}
+
+.nav-link.active{
+    color:#d4568b;
+}
+
+.header-background{
+    background-color: #000000;
+}
+
+.logo{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.fa{
+    color:white;
+    padding-left: 20px;
+}
+
+table{
+    table-layout:fixed;
+    width:100%;
+}
+
+h2{
+    color: #d4568b;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+td{
+    color: white;
+    text-align: center;
+}
+
+.pets h3{
+    color: #A8E53C;
+}
+
+.animals{
+    max-width: 200px;
+}
+
+.buttonholder{
+    text-align: center;
+}
+
+.carousel{
+    margin: auto;
+    padding: 30px;
+}
+
+.modal{
+    color: black;
+}
+
+.survey{
+    text-align: center;
+    color:#d4568b;
+}
+
+a:hover{
+    color: #A8E53C;
+}
+
+footer{
+    background-color: #A8E53C;
+    color: black;
+    text-align: center;
+}
+
+/*@media queries to remove images and correct spacing in header across all webpages */
+
+@media only screen and (max-width: 1040px){
+    .company, .company2{
+        display: none;
+    }   
+}
+
+@media only screen and (max-width: 600px){
+    .altcompany{
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 1041px){
+    .altcompany{
+        display: none;
+    }
+}
