@@ -1,0 +1,656 @@
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	background-image: url(../images/italybackground.gif);
+	color: #000000;
+	font-family: Arial, sans-sarif;
+}
+header
+{
+	background-color: #00a336;
+	background-image: url(../images/romelogofinal.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+	height: 150px;
+	margin: 10px 10px 0 10px;
+	
+}
+
+#wrapper
+{
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	min-width: 1200px;
+	max-width: 1480px;
+}
+
+h1
+{
+	padding-left: 15%;
+	padding-top: 4px;
+	margin-bottom: 0;
+	font-family: Impact, sans-sarif;
+	color: white;
+	font-size: 4.5em;
+}
+
+h2
+{
+	padding-left: 18%;
+	margin-top: 0;
+	font-family: Impact, sans-sarif;
+	color: white;
+	font-size: 3em;
+}
+
+h3{
+	margin-top: 5px;
+	height: auto;
+	color: white;
+	padding-top:5px;
+	font-size: 1.6em;
+	text-align: center;
+	background-color: #fa1616;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+h4 
+{
+    text-align: center; 
+    width: 400px;
+}
+
+nav
+{
+	font-weight: bold;
+	padding: 1em;
+	background-color: #00a336;
+	height: 80px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+}
+
+nav a
+{
+    text-align: center;
+	font-weight: bold;
+	background-color: #fa1616;
+    padding: 1em;
+	border: 3px solid white;
+}
+
+nav ul li
+{
+    margin-top: .5em;
+    flex: auto;
+    
+    text-align: center;
+    cursor: pointer;
+    padding: .5rem;
+}
+
+nav a:link
+{
+	color: white;
+}
+
+nav a:visited
+{
+	color: #f5dede;
+	border:3px solid #f5dede;
+}
+
+nav a:hover
+{
+	color: yellow;
+	border: 3px solid yellow;
+}
+
+footer
+{
+	background-color: #00a336;
+	color: white;
+	font-size: 1em;
+	font-style: italic;
+	text-align: center;
+	padding: 0.5em;
+}
+
+main
+{
+	
+	font-size: 1.2em;
+	padding-top: 1em;
+	padding-left: 3em;
+	padding-right: 3em;
+	display: block;
+	padding-bottom: 6em;
+}
+
+figure
+{
+	width: 85%;
+	height: 222px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+	padding: 10px;
+	margin-bottom: 5px;
+	border: 2px solid black;
+	background-color: #e0f7b7;
+}
+
+.temple
+{
+	border: 2px solid black;
+}
+
+figcaption
+{
+    padding-left: 10px;
+	font-size: 0.9em;
+	position: relative;
+	
+}
+
+.pop
+{
+	font-weight: bold;
+	color: red;
+}
+
+header, nav, main, footer
+{
+	display: block;
+}
+
+.flexcontainer
+{
+    display:flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.flexlist
+{
+    flex-direction: column;
+    flex: 2 2;
+}
+
+.fleximage
+{
+    flex-direction: column;
+    
+}
+
+.vespa
+{
+	position: relative;
+	border: 2px solid black;
+	margin: 1em;
+}
+
+.gondola
+{
+	border: 2px solid black;
+	margin: 1em;
+}
+
+.bullets
+{
+	font-size: 0.9em;
+	font-weight: bold;
+	line-height: 150%;
+	color: green;
+	display: block;
+	padding-bottom: 1em;
+	margin-left: 2em;
+	text-align: center;
+	width: 400px;
+	margin-right: auto;
+	
+}
+
+.imgcontainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 5px;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.item
+{
+    margin: 5px;
+    padding: 3px;
+    border: 2px solid black;
+}
+
+.mail
+{
+	display: flex;
+	width: 100%;
+	height: 160px;
+	margin-left: auto;
+}
+
+.mail img
+{
+	width: 100px;
+	height: 100px;
+}
+
+svg
+{
+	position: relative;
+	-webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */  
+    animation: myfirst 5s;  
+}
+
+}  
+/* Chrome, Safari, Opera */  
+@-webkit-keyframes myfirst {  
+    0%   {left:0px; top:0px;}  
+    20%  {left:150px; top:0px;}  
+    40%  {left:300px; top:0px;}  
+    60%  {left:450px; top:0px;}  
+    90% {left:600px; top:0px;}  
+	100% {left: 720px; top: 0px;}
+}  
+/* Standard syntax */  
+@keyframes myfirst {  
+    0%   {left:0px; top:0px;}  
+    20%  {left:150px; top:0px;}  
+    40%  {left:300px; top:0px;}  
+    60%  {left:450px; top:0px;}  
+    90% {left:600px; top:0px;}  
+	100% {left: 720px; top: 0px;}
+}  
+
+table
+{
+	width: 100%;
+	margin: auto;
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin-bottom: 1em;
+	
+}
+
+table td
+{
+	padding: 15px;
+	border: 5px solid white;
+	
+}
+
+table td:nth-of-type(odd)
+{
+	
+	color: white;
+	background-color: #d43b3b;
+	font-weight: bold;
+}
+
+table th
+{
+	color: white;
+	background-color: #00a336;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 5px;
+	border: 3px solid black;
+}
+
+table td:nth-of-type(even)
+{
+	border: 2px solid black;
+	color: black;
+}
+
+table td:first-of-type
+{
+	border-top: 3px solid black;
+}
+
+.cardContainer
+{
+	background-color: #00a336;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0.1%;
+
+}
+
+.cardLayout
+{
+	background-color: #f5dede;
+	margin: 1%;
+	flex-basis: 500px;
+	flex-grow: 1;
+	padding: 2%;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.cardContainer img
+{
+	max-width: 50%;
+	height: auto;
+}
+
+.cardLayout img
+{
+	flex-basis: 100%;
+	padding: 2%;
+
+}
+
+.sideBySide
+{
+	display: flex;
+	flex-direction: row;
+	padding: 2%;
+	flex-grow: 1;
+}
+
+form
+{
+	display: flex;
+}
+
+.ultrawide
+{
+	width: 100%;
+	height: auto;
+}
+
+.container 
+{
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container * 
+{
+  box-sizing: border-box;
+}
+
+.flex-outer,
+.flex-inner 
+{
+  list-style-type: none;
+  padding: 0;
+}
+
+.flex-outer 
+{
+  max-width: 800px;
+  margin: 30 50 auto;
+}
+
+.flex-outer li,
+.flex-inner 
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-inner 
+{
+  padding: 0 8px;
+  justify-content: space-between;  
+}
+
+.flex-outer > li:not(:last-child) 
+{
+  margin-bottom: 20px;
+}
+
+.flex-outer li label,
+.flex-outer li p 
+{
+  padding: 8px;
+  font-weight: 200;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.flex-outer > li > label,
+.flex-outer li p 
+{
+  flex: 1 0 120px;
+  max-width: 220px;
+}
+
+.flex-outer > li > label + *,
+.flex-inner 
+{
+  flex: 1 0 220px;
+}
+
+.flex-outer li p 
+{
+  margin: 0;
+}
+
+.flex-outer li input:not([type='checkbox']),
+.flex-outer li textarea 
+{
+  padding: 15px;
+  border: 1px solid black;
+  background-color: light rgb(217, 245, 231)
+}
+
+.flex-outer li button 
+{
+  margin-left: auto;
+  padding: 8px 16px;
+  border: none;
+  background: #333;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  border-radius: 2px;
+}
+
+.flex-inner li 
+{
+  width: 220px;
+  font-size: .8em;
+}
+
+input, textarea
+{
+	background-color:rgb(237, 252, 240)
+}
+
+@media screen and (max-width: 1215px) {
+	#wrapper {
+		min-width: 100%;
+	}
+	nav ul {
+		margin:  0 auto;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	nav a:link {
+	    font-size: 80%;
+	}
+	figure {
+		height: auto;
+	}
+}
+@media screen and (max-width: 875px) {
+	.flexcontainer {
+	    flex-direction: column;
+	}
+	h4, .bullets {
+		width: auto;
+	}
+	.fleximage img {
+		margin: 0 auto;
+    	display: block;
+	    max-width: 100%;
+    	height: auto;
+	}
+}
+@media screen and (max-width: 850px) {
+
+}
+
+@media screen and (max-width: 725px) {
+	header {
+		background-image: none;
+		
+	}
+	header h1, header h2 {
+		padding-left: 0;
+		text-align:  center;
+	}
+	nav {
+		height:  auto;
+	}
+	nav ul {
+		flex-direction:  column;
+	}
+	nav ul li {
+		padding: 0;
+	}
+	nav a:link {
+	    display: inline-block;
+    	width: 100%;
+	}
+	figure {
+		flex-direction: column;
+    	gap: 1rem;
+	}
+}
+@media only screen and (max-width: 620px) {
+	.sideBySide {
+		flex-direction: column;
+	}
+	.cardLayout img {
+		display: block;
+		margin:  0 auto;
+	}
+}
+
+
+@media only screen and (max-width: 466px)
+{
+    header
+    {
+        background-position: left;
+        margin-right: 10px;
+		width:  auto;
+		height: auto;
+    	padding: 1px;
+    }
+	h1, h2{
+		display: block;
+		font-size: 2em;
+	}
+	h3 
+    { 
+        width: auto;
+		text-align: center;
+    }
+    nav 
+    { 
+		width:  auto;
+		height:  auto;
+    }
+    nav ul 
+    {
+        flex-direction: column;
+        margin-left: 0;
+		margin-bottom: 0;
+    }
+    nav ul li
+    {
+        text-align: left;
+        margin: 12px;
+    }
+	nav ul li:last-child {
+		margin-bottom: 12px;
+	}
+    main 
+    {
+        width: auto;
+    	padding: 20px;
+    }
+    figure 
+    {
+		margin: 0;
+    	width: 100%;
+    }
+    figcaption
+    {
+        display: block;
+    }
+    .vespa{ display: none;}
+    .gondola{ display:none;}
+	.ultrawide{display:none;}
+	.mail{display: none;}
+    h4 
+    {
+        margin-left: 0;
+        padding-left: 0;
+        text-align: left;
+    }
+    .bullets 
+    {
+        text-align: left;
+        margin-left: 0;
+    }
+    footer 
+    { 
+        padding: 0.5em; 
+        margin: 0; 
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }	
+	.cardLayout 
+	{
+		flex-basis: 80%;
+	}
+    .sideBySide
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.cardLayout h3 
+	{
+		font-size: 1em;
+	}
+}

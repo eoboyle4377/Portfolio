@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Born To Rome Travel Agency</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/italystylesheet.css">
+	<!--
+	Filename: index.html
+	Author: Eric OBoyle  
+	Date:   09/19/22
+
+	-->
+</head>
+
+<body>
+<div id="wrapper">
+<header>
+	<h1>Born To Rome</h1>
+	<h2>Travel Agency</h2>
+</header>
+<h3 style="font-size: 2em">Your invitation to all things Italy</h3>
+<nav>
+	<ul>
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="packages.html">VACATION PACKAGES</a></li>
+		<li><a href="thingstopack.html">THINGS TO PACK</a></li>
+		<li><a href="aboutus.html">ABOUT US</a></li>
+		<li><a href="contact.html">CONTACT</a></li>
+	</ul>
+</nav>
+<main>
+    <img class="ultrawide" src="images/ultrawide.jpg" alt="panoramic village">
+	<h3 style="font-size: 1.3em; margin-top: 20px;">Customer Service Form</h3><br>
+	<div class="mail">
+	<img src="images/mail.png" alt="envelope">
+	<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" 
+	viewBox="0 0 800 800"><g stroke-width="27" stroke="hsl(0, 0%, 0%)" fill="none" stroke-linecap="square" 
+	transform="matrix(0.7071067811865474,-0.7071067811865477,0.7071067811865477,0.7071067811865474,-250.68542494923804,251.0000000000001)"><line x1="310" y1="310" x2="490" y2="490" 
+	marker-end="url(#SvgjsMarker2136)"></line></g><defs><marker markerWidth="10" markerHeight="10" refX="5" refY="5" viewBox="0 0 10 10" orient="auto" id="SvgjsMarker2136"><polygon 
+		points="0,10 0,0 10,5" fill="hsl(0, 0%, 0%)"></polygon></marker></defs></svg>
+	<img class="mail" src="images/mailbox.png" alt="mailbox" style="margin-left: 700px;">
+</div>
+    <p style="text-align: center">Thank you for your interest in Born to Rome Travel Agency.<br>
+        Please fill out and submit the form below and one of our dedicated agents will contact you as soon as possible. 
+    </p><br>
+	<!--form code-->
+		<div class="container">
+		  <form>
+			<ul class="flex-outer">
+			  <li>
+				<label for="first-name">First Name</label>
+				<input type="text" id="first-name" placeholder="Enter first name">
+			  </li>
+			  <li>
+				<label for="last-name">Last Name</label>
+				<input type="text" id="last-name" placeholder="Enter last name">
+			  </li>
+			  <li>
+				<label for="email">Email</label>
+				<input type="email" id="email" placeholder="Enter your email">
+			  </li>
+			  <li>
+				<label for="phone">Phone</label>
+				<input type="tel" id="phone" placeholder="Enter your phone">
+			  </li>
+              <li>
+				<p>Reason for contacting us:</p>
+				<ul class="flex-inner">
+				  <li>
+					<input type="checkbox" id="Quote">
+					<label for="Quote">Quote</label>
+				  </li>
+				  <li>
+					<input type="checkbox" id="Cancellation">
+					<label for="Cancellation">Cancellation</label>
+				  </li>
+				  <li>
+					<input type="checkbox" id="Information">
+					<label for="Information">Information</label>
+				  </li>
+				  <li>
+					<input type="checkbox" id="Billing">
+					<label for="Billing">Billing</label>
+				  </li>
+				  <li>
+					<input type="checkbox" id="Scheduling">
+					<label for="Scheduling">Scheduling</label>
+				  </li>
+				  <li>
+					<input type="checkbox" id="Other">
+					<label for="Other">Other</label>
+				  </li>
+				</ul>
+			  </li>
+			  <li>
+				<label for="message">Message</label>
+				<textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
+			  </li>
+              <li>
+                <button type="submit">Submit</button>
+              </li>
+			</ul>
+		  </form>
+		</div>
+</main>
+<footer>
+
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" >
+    </a>
+<small><i> Copyright &copy; 2022<br>
+		   Created by Eric O'Boyle for WDD222 - 10/10/22</i></small>
+
+</footer>
+</div>
+</body>
+</html>
