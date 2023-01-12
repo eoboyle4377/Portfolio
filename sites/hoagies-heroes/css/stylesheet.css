@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(34, 87, 117);
+}
+
+.wrapper{
+    background-color: rgb(34, 87, 117);
+    color: white;
+    width: 80%;
+    margin: 30px auto;
+    border: 3px solid rgb(243, 242, 242);
+}
+
+nav li{
+    font-size: 1.25em;;
+}
+
+nav a{
+    color:rgb(34, 87, 117);
+}
+
+a:hover{
+    color: #f0bf3b;
+}
+
+.navbar-expand>.navbar-nav>.nav-link active{
+    color: red;
+}
+
+.sidebar{
+    color: rgb(34, 87, 117);
+    background-color: rgb(250, 231, 196);
+    border: 2px solid #f0bf3b;
+}
+
+.sidebar h3{
+    color: red;
+    padding-top: 0;
+}
+
+.schedule{
+    list-style: none;
+    padding: 0;
+}
+
+.schedule li{
+    padding-bottom: 20px;
+    font-size: 1.1em;
+}
+
+span{
+    color: red;
+}
+
+.casa{
+    color: #f0bf3b;
+}
+
+.fa{
+    margin-left: 15px;
+}
+
+h1{
+    color: #f0bf3b;
+    margin-top: 0;
+}
+
+h2{
+    color: #f0bf3b;
+}
+
+img{
+    border: 2px solid #f0bf3b;
+    padding: 2px;
+}
+
+.navbar-brand img{
+    border: none;
+    padding: 0;
+}
+
+form{
+    margin-top: 30px;
+    padding-top: 30px;
+    border: 2px solid #f0bf3b;
+    background-color: white;
+    color:rgb(34, 87, 117)
+}
+
+.buttonholder{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+button{
+    background-color: #f0bf3b;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(238, 239, 240);
+    color:rgb(34, 87, 117);
+}

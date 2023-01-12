@@ -1,0 +1,124 @@
+body{
+    background-color: #fffbda;
+}
+
+.wrapper
+{
+    width: 84%;
+    border: 2px solid black;
+    margin: 30px auto;
+    background-color: white;
+}
+
+.header-wrapper{
+    width: 100%;
+    background-image: linear-gradient(to left, #7F67A8, #432873);
+    
+}
+
+.company{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 5.2em;
+    padding-top: 40px;
+}
+
+.nav-container{
+    background-image: linear-gradient(to left, #7F67A8, #432873);
+    margin-top: 15px;
+}
+
+.nav-link{
+    color: white;
+    padding-right: 80px;
+    font-size: 1.5em;
+}
+
+.nav-link.active{
+    color:#cec056
+
+}
+
+.header-background{
+    background-color: #fffbda;
+}
+
+.history{
+    text-decoration: underline;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.fa{
+    color:white;
+    padding-left: 20px;
+}
+
+.rounded{
+    margin-top: 5px;
+}
+
+h2{
+    color: #5e438d;
+    margin-bottom: 30px;
+}
+
+a:hover{
+    color: #fff7b8;
+}
+
+.navbar-expand>.navbar-nav>.nav-link active{
+    color: #cec056;
+}
+
+.performances li{
+    margin-bottom: 20px;
+}
+
+.jumbotron{
+    color: #5e438d;
+    font-weight: bolder;
+    background-color: white;
+}
+
+.buttonholder{
+    text-align: center;
+}
+
+.card{
+    border: 3px solid #5e438d;
+    width: 20rem;
+}
+
+.card-title{
+    padding-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: #5e438d;
+}
+
+#formborder{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+footer{
+    background-image: linear-gradient(to left, #7F67A8, #432873);
+    color: white;
+    text-align: center;
+}
+@media only screen and (max-width: 900px){
+    #nodisplay
+    {
+    display: none;
+    }
+}
+
+@media only screen and (max-width: 466px){
+    .company{
+        display: none;
+    }
+
+}
