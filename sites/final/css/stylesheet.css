@@ -1,0 +1,167 @@
+body
+{
+    background-color: rgb(10, 10, 10) !important;
+    color: white !important;
+}
+
+.container a
+{
+    text-decoration:none !important;
+    color:white !important;
+}
+
+.container a:hover
+{
+    color: rgba(248, 53, 53, 0.829) !important;
+}
+
+.navbar a:hover
+{
+    
+    color: rgba(248, 53, 53, 0.829) !important;
+}
+
+.nav-link
+{
+    color: white !important;
+}
+
+.navbar, footer
+{
+    background-color: rgba(99, 99, 99, 0.795);
+  
+}
+
+.nav-link, h1, h2, h3, h4, h5{
+    font-family: 'Arvo', sans-serif;
+}
+
+h1, h2, h3, h4, h5
+{
+    color: white;
+}
+
+.banner 
+{
+    margin-top: 80px;
+    border: solid white 1px;
+}
+
+.jumbotron
+{
+    background-color: rgba(248, 53, 53, 0.829) !important;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important
+}
+
+.stamp
+{
+    border: solid white 1px;
+    background-color: rgba(121, 121, 121, 0.527);
+    padding: 20px;
+    text-align: center;
+}
+
+.date
+{
+    color: rgba(253, 70, 70, 0.829);
+}
+
+.card-body
+{
+    background-color: rgba(99, 99, 99, 0.795);
+}
+
+.boompow
+{
+    display: block;
+    max-width: 80% !important;
+    height: auto;
+    margin: auto;
+}
+
+.modal-title
+{
+    color: black;
+}
+
+.modal-body, .modal-footer
+{
+    background-color: rgba(99, 99, 99, 0.795);
+    color: white;
+}
+
+.attention
+{
+    justify-content: center;
+}
+
+
+footer
+{
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+.banner img
+{
+    border-radius: 30% !important;
+}
+
+i
+{
+  padding-left: 50px;
+  color: white;
+}
+
+form
+{
+    border: solid white 1px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+
+.buttonholder
+{
+    text-align: center;
+}
+
+.comic
+{
+    display: block;
+    max-width: 30% !important;
+    height: auto;
+    margin: auto;
+}
+
+.pastissues
+{
+    border: solid white 1px;
+    background-color: rgba(248, 53, 53, 0.829);
+    padding: 10px;
+    text-align: center;
+}
+
+.issue
+{
+    border: solid white 1px;
+    padding: 20px;
+}
+
+.headercenter
+{
+    text-align: center;
+}
+
+.nav-item
+{
+    padding-left: 40px;
+    font-size: 1.2em;
+}
+
+.top-page
+{
+    margin-top: 80px;
+}

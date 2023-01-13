@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fan made site dedicated to the Marvel character Venom. Learn his origin and subscribe to our magazine subscription service.">
+	<!--Meta SEO description-->
+  <title>Venom | Antihero</title>
+	<link rel = "stylesheet" href = "css/stylesheet.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo">
+    <!--Importing fonts and icons-->
+
+	<!--
+	Filename: index.html
+	Author: Eric OBoyle  
+	Date:   12/05/22
+
+	-->
+</head>
+<body>
+    <div class="nav-container">
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+		<!-- Brand -->
+		<a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="Logo" style="width:80px;">
+        </a>
+		<!-- Toggler/collapsible Button -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+	  
+		<!-- Navbar links -->
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+		  <ul class="navbar-nav">
+			<li class="nav-item active">
+			  <a class="nav-link" href="index.html">Home</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="faces.html">Faces of Venom</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="subscribe.html">Subscribe</a>
+			</li>
+		  </ul>
+		    <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://www.facebook.com"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+            <!--Icons for social media inserted using fontawesome-->
+		</div>
+	  </nav>
+    </div>
+    <div class="container">
+        <img class="img-fluid banner" src="images/banner.jpg" alt="Venom Banner">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="jumbotron mt-3">
+                    <h1 class="display 1">Venom Fanpage</h1>
+                    <h4 class="display 5">The Shapeshifting Antihero</h4>
+                    <!--Bootstrap headers-->
+                </div>
+                <h4 class=" mb-3 stamp">The Perfect Parasite</h4>
+                <p>The best thing about Venom as a character is that he is always changing and evolving. He is a very mysterious, liquid-like symbiote that can 
+                  inherit the bodies and strengths of his host, while also providing them with superhuman abilities. His primary ability is shapeshifting, allowing him to 
+                  be anything and anyone he wants to be. As a child, I was drawn to him because of his edgy, dark dimeanor and his reputation as an anti-hero. He seems very 
+                  misunderstood and the constant internal battles he fights with his hosts (both good and bad) leads fans to always question his intentions.
+                </p>
+            </div>
+            <div class="col-md-6 mt-2">
+                <h4 class="mt-3 mb-3 stamp">Origin Story</h4>
+                <p>Venom is an amorpheous symbiote hatched from an egg in a cavern on Klyntar, a planet ruled by the Knull alien race. With plans of using him as a tool of destruction, Venom 
+                  refused to obey orders and was cast out of the planet to wander aimlessly through the cosmos. He was discoved during a war by the Kree, enemies of the Knull. He was bonded to Tel-Kar, 
+                  his first host (chronilogically), and together they became a super soldier sent to fight in their war as a spy and assassin. During this war Venom was used to carry out genocide on his home planet, twisting him into 
+                  a hate-filled predator. 
+                  He later arrived on earth via a meteor that crash landed near New York. Captured and imprisoned, he fused with the suit of Peter Parker (spiderman) upon being mistakenly released from his cell. From then on, he was imprinted with 
+                  Spiderman's abilities and carries these powers with him after he was forcibly removed from Parker. He moves from host to host, interfacing with their minds and feeding off of their adrenaline.
+                </p>
+            </div>
+        </div>
+            <div class="row attention">
+              <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal"><h4 class="col-sm-12 stamp">Join our Subscription Service!</h4></button>
+            </div>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Receive a unique Venom comic book for only $9.99/month</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Please visit our Subscription tab to set up your subscription today. Includes vintage and even rare comic issues. Each month uncover a mystery as great as 
+                        Venom himself!
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="row">
+            <h5 class="col-sm-2 mb-4 mt-3 pastissues">Past 3 issues</h5><br> 
+            </div>
+            <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-sm-5 issue">
+                    <img class="img-fluid img-thumbnail comic" src="images/comic1.jpg" alt="comic issue #1">
+                    </div>
+                    <div class="col-sm-5 issue">
+                    <h5>The Amazing Spider-man (Issue #375) - Spidey vs. Venom: The Final Confrontation</h5>
+                    <p class="date">Dec 2022</p>
+                    </div>
+                    <div class="col-md-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-sm-5 issue">
+                <img class="img-fluid img-thumbnail comic" src="images/comic2.jpg" alt="comic issue #2">
+                </div>
+                <div class="col-sm-5 issue">
+                <h5>Venom (Issue #87) - Lethal Protector</h5>
+                <p class="date">Nov 2022</p>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-sm-5 issue">
+                <img class="img-fluid img-thumbnail comic" src="images/comic3.jpg" alt="comic issue #3">
+                </div>
+                <div class="col-sm-5 issue">
+                <h5>The Amazing Spider-man (Issue #252) - The Rumors Are True.</h5>
+                <p class="date">Oct 2022</p>
+                </div>
+                <div class="col-md-1"></div>
+            </div><br><br>
+    </div>
+    <footer>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="Valid CSS!">
+            </a>
+        <small>Copyright &copy; 2022<br>
+                   Created by Eric O'Boyle for WDD222</small>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
