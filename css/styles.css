@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.layout-wrapper {
+    text-align: center;
+    background-image: linear-gradient(rgb(203, 209, 229), white);
+    color: black;
+}
+
+.name {
+    color: darkblue;
+}
+
+nav {
+    background-color: rgb(49, 49, 83);
+    color: white;
+}
+
+.card-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.card {
+    border: 2px solid rgb(49, 49, 83);
+}
+
+.card-body {
+    background-color: white;
+    color: black;
+}
+
+.profile {
+    border-radius: 40%;
+    border: 2px solid rgb(49, 49, 83);
+    padding: .5em;
+}
