@@ -4,16 +4,21 @@
 
 .layout-wrapper {
     text-align: center;
-    background-image: linear-gradient(rgb(203, 209, 229), white);
+    background-image: linear-gradient(rgb(255, 254, 254), rgb(155, 155, 155));
+    color: black;
+}
+
+.banner {
+    background-image: url("../images/portfolio-banner.jpg");
     color: black;
 }
 
 .name {
-    color: darkblue;
+    color: rgb(116, 35, 35);
 }
 
 nav {
-    background-color: rgb(49, 49, 83);
+    background-color: rgb(116, 35, 35);
     color: white;
 }
 
@@ -24,7 +29,7 @@ nav {
 }
 
 .card {
-    border: 2px solid rgb(49, 49, 83);
+    border: 2px solid black;
 }
 
 .card-body {
@@ -32,8 +37,13 @@ nav {
     color: black;
 }
 
+.btn {
+    background-color: rgb(116, 35, 35);
+    color: white;
+}
+
 .profile {
     border-radius: 40%;
-    border: 2px solid rgb(49, 49, 83);
+    border: 3px solid black;
     padding: .5em;
 }
