@@ -6,6 +6,7 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+
 .layout-wrapper {
     text-align: center;
     color: black;
@@ -21,6 +22,10 @@ body {
     background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(0, 0, 0, 0.2)), url(../images/portfolio-banner.jpg);
     color: black;
     background-size: cover;
+}
+
+.change {
+    margin-left: 15px;
 }
 
 .name {
@@ -87,4 +92,13 @@ i {
 
 ul li {
     list-style: none;
+}
+
+body.dark {
+    background-color: rgb(65, 64, 64);
+    color: white;
+}
+
+body.dark main.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 1)), url(../images/banner-inverted.jpg);
 }

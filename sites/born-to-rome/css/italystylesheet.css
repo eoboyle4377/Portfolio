@@ -214,18 +214,15 @@ header, nav, main, footer
 	margin: 1em;
 }
 
+.packages {
+	display: flex;
+}
+
 .bullets
 {
-	font-size: 0.9em;
-	font-weight: bold;
-	line-height: 150%;
+	
 	color: green;
-	display: block;
-	padding-bottom: 1em;
-	margin-left: 2em;
-	text-align: center;
-	width: 400px;
-	margin-right: auto;
+	flex-direction: column;
 	
 }
 
