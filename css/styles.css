@@ -113,12 +113,12 @@ body.dark {
 
 body.dark .banner {
     color: rgba(255, 255, 255, 0.87);
-    background-image: linear-gradient(rgba(58, 58, 58, 0.444), #121212), url(../images/banner-inverted.jpg);
+    background-image: linear-gradient(rgba(77, 77, 77, 0.25), #121212), url(../images/banner-inverted.jpg);
 }
 
 body.dark .bottom-banner {
     color: rgba(255, 255, 255, 0.87);
-    background-image: linear-gradient(#121212, rgba(58, 58, 58, 0.444)), url(../images/banner-inverted.jpg);
+    background-image: linear-gradient(#121212, rgba(77, 77, 77, 0.25)), url(../images/banner-inverted.jpg);
 }
 
 body.dark .profile, body.dark .card {
