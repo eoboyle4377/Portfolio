@@ -88,15 +88,22 @@ i {
     border-radius: 40%;
     border: 3px solid black;
     padding: .5em;
+    width: 250px;
+    height: auto;
 }
 
 ul li {
     list-style: none;
 }
 
+footer {
+    text-align: center;
+}
+
 .change {
     border: 2px solid black;
     padding: 5px 15px 5px 15px;
+    cursor: pointer;
 }
 
 body.dark {
@@ -106,12 +113,12 @@ body.dark {
 
 body.dark .banner {
     color: rgba(255, 255, 255, 0.87);
-    background-image: linear-gradient(rgba(153, 152, 152, 0.253), #121212), url(../images/banner-inverted.jpg);
+    background-image: linear-gradient(rgba(58, 58, 58, 0.444), #121212), url(../images/banner-inverted.jpg);
 }
 
 body.dark .bottom-banner {
     color: rgba(255, 255, 255, 0.87);
-    background-image: linear-gradient(#121212, rgba(153, 152, 152, 0.253)), url(../images/banner-inverted.jpg);
+    background-image: linear-gradient(#121212, rgba(58, 58, 58, 0.444)), url(../images/banner-inverted.jpg);
 }
 
 body.dark .profile, body.dark .card {
@@ -128,11 +135,11 @@ body.dark h2 {
 }
 
 body.dark .btn, body.dark .navbar, body.dark footer {
-    background-color:rgb(214, 82, 82);
+    background-color:rgb(168, 46, 46);
 }
 
 body.dark .name {
-    color:rgb(214, 82, 82);
+    color:rgb(168, 46, 46);
 }
 
 body.dark .change {
