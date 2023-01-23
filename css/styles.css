@@ -100,6 +100,10 @@ footer {
     text-align: center;
 }
 
+.mode {
+    font-size: 0.8rem;
+}
+
 .change {
     border: 2px solid black;
     padding: 5px 15px 5px 15px;
