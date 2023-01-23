@@ -100,31 +100,31 @@ ul li {
 }
 
 body.dark {
-    background-color: rgb(29, 29, 29);
-    color: white;
+    background-color: #121212;
+    color: rgba(255, 255, 255, 0.87);
 }
 
 body.dark .banner {
-    color: white;
-    background-image: linear-gradient(rgba(153, 152, 152, 0.253), rgb(29, 29, 29)), url(../images/banner-inverted.jpg);
+    color: rgba(255, 255, 255, 0.87);
+    background-image: linear-gradient(rgba(153, 152, 152, 0.253), #121212), url(../images/banner-inverted.jpg);
 }
 
 body.dark .bottom-banner {
-    color: white;
-    background-image: linear-gradient(rgb(29, 29, 29), rgba(153, 152, 152, 0.253)), url(../images/banner-inverted.jpg);
+    color: rgba(255, 255, 255, 0.87);
+    background-image: linear-gradient(#121212, rgba(153, 152, 152, 0.253)), url(../images/banner-inverted.jpg);
 }
 
 body.dark .profile, body.dark .card {
-    border: 3px solid white;
+    border: 3px solid rgba(255, 255, 255, 0.87);
 }
 
 body.dark .card-body {
-    color: white;
-    background-color: rgb(70, 70, 70);
+    color: rgba(255, 255, 255, 0.87);
+    background-color: rgb(44, 44, 44);
 }
 
 body.dark h2 {
-    color: white;
+    color: rgba(255, 255, 255, 0.87);
 }
 
 body.dark .btn, body.dark .navbar, body.dark footer {
@@ -136,5 +136,5 @@ body.dark .name {
 }
 
 body.dark .change {
-    border: 2px solid white;
+    border: 2px solid rgba(255, 255, 255, 0.87);
 }
